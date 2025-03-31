@@ -1,6 +1,8 @@
 package de.syntax_institut.codingchallenges04_07
 
 import android.app.Application
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.delay
